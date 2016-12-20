@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.0.1 (swiftlang-800.0.58.6 clang-800.0.42.1)"
+options: "ef029ce04d5cc60eacd4aae96f1d95e6"
+build_time: [535570208, 20105000]
+inputs:
+  "/Users/Abdurrahman/Desktop/iOS 10/MasterDex/MasterDex/ViewController.swift": [535569146, 0]
+  "/Users/Abdurrahman/Desktop/iOS 10/MasterDex/MasterDex/AppDelegate.swift": [535569146, 0]
