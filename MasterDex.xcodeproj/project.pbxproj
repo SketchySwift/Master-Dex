@@ -7,16 +7,94 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151490341E2EA49600CE356A /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490161E2EA49600CE356A /* AsyncButton.swift */; };
+		151490351E2EA49600CE356A /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490171E2EA49600CE356A /* AsyncImageView.swift */; };
+		151490361E2EA49600CE356A /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490181E2EA49600CE356A /* AutoTextView.swift */; };
+		151490371E2EA49600CE356A /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490191E2EA49600CE356A /* BlurView.swift */; };
+		151490381E2EA49600CE356A /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514901A1E2EA49600CE356A /* DesignableButton.swift */; };
+		151490391E2EA49600CE356A /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514901B1E2EA49600CE356A /* DesignableImageView.swift */; };
+		1514903A1E2EA49600CE356A /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514901C1E2EA49600CE356A /* DesignableLabel.swift */; };
+		1514903B1E2EA49600CE356A /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514901D1E2EA49600CE356A /* DesignableTabBarController.swift */; };
+		1514903C1E2EA49600CE356A /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514901E1E2EA49600CE356A /* DesignableTextField.swift */; };
+		1514903D1E2EA49600CE356A /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514901F1E2EA49600CE356A /* DesignableTextView.swift */; };
+		1514903E1E2EA49600CE356A /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490201E2EA49600CE356A /* DesignableView.swift */; };
+		1514903F1E2EA49600CE356A /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490211E2EA49600CE356A /* ImageLoader.swift */; };
+		151490401E2EA49600CE356A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 151490221E2EA49600CE356A /* Info.plist */; };
+		151490411E2EA49600CE356A /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490231E2EA49600CE356A /* KeyboardLayoutConstraint.swift */; };
+		151490421E2EA49600CE356A /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490241E2EA49600CE356A /* LoadingView.swift */; };
+		151490431E2EA49600CE356A /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 151490251E2EA49600CE356A /* LoadingView.xib */; };
+		151490441E2EA49600CE356A /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490261E2EA49600CE356A /* Misc.swift */; };
+		151490451E2EA49600CE356A /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490271E2EA49600CE356A /* SoundPlayer.swift */; };
+		151490461E2EA49600CE356A /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490291E2EA49600CE356A /* Spring.swift */; };
+		151490471E2EA49600CE356A /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514902A1E2EA49600CE356A /* SpringAnimation.swift */; };
+		151490481E2EA49600CE356A /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514902B1E2EA49600CE356A /* SpringButton.swift */; };
+		151490491E2EA49600CE356A /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514902C1E2EA49600CE356A /* SpringImageView.swift */; };
+		1514904A1E2EA49600CE356A /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514902D1E2EA49600CE356A /* SpringLabel.swift */; };
+		1514904B1E2EA49600CE356A /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514902E1E2EA49600CE356A /* SpringTextField.swift */; };
+		1514904C1E2EA49600CE356A /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1514902F1E2EA49600CE356A /* SpringTextView.swift */; };
+		1514904D1E2EA49600CE356A /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490301E2EA49600CE356A /* SpringView.swift */; };
+		1514904E1E2EA49600CE356A /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490311E2EA49600CE356A /* TransitionManager.swift */; };
+		1514904F1E2EA49600CE356A /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490321E2EA49600CE356A /* TransitionZoom.swift */; };
+		151490501E2EA49600CE356A /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490331E2EA49600CE356A /* UnwindSegue.swift */; };
+		151490521E306BF400CE356A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151490511E306BF400CE356A /* Constants.swift */; };
+		156146761E1D849200202A3E /* PokemonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156146751E1D849200202A3E /* PokemonDetailViewController.swift */; };
 		159559AD1E0AEFC700A21C4D /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 159559AC1E0AEFC700A21C4D /* pokemon.csv */; };
+		159559B21E0C466500A21C4D /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159559B11E0C466500A21C4D /* Pokemon.swift */; };
+		159559B41E0C4AC900A21C4D /* Pokemon Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 159559B31E0C4AC900A21C4D /* Pokemon Solid.ttf */; };
+		159559DB1E0C8D5D00A21C4D /* fj70soU.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 159559DA1E0C8D5D00A21C4D /* fj70soU.jpg */; };
+		159559DD1E0C8DD800A21C4D /* pokemon_super_mystery_dungeon_desktop_background_by_manikkuderp-d9hwfk8.png in Resources */ = {isa = PBXBuildFile; fileRef = 159559DC1E0C8DD800A21C4D /* pokemon_super_mystery_dungeon_desktop_background_by_manikkuderp-d9hwfk8.png */; };
+		159559DF1E0F2FD200A21C4D /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159559DE1E0F2FD200A21C4D /* PokeCell.swift */; };
+		159559E31E1432A400A21C4D /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159559E21E1432A400A21C4D /* csv.swift */; };
+		159559E51E15BBA100A21C4D /* Littleroot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 159559E41E15BBA100A21C4D /* Littleroot.mp3 */; };
 		15B489361E099DFA00772230 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B489351E099DFA00772230 /* AppDelegate.swift */; };
 		15B489381E099DFA00772230 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B489371E099DFA00772230 /* ViewController.swift */; };
 		15B4893B1E099DFA00772230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B489391E099DFA00772230 /* Main.storyboard */; };
 		15B4893D1E099DFA00772230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B4893C1E099DFA00772230 /* Assets.xcassets */; };
 		15B489401E099DFA00772230 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B4893E1E099DFA00772230 /* LaunchScreen.storyboard */; };
+		6A0DB054ED637A68A232C04E /* Pods_MasterDex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE0B4AB79E44C11E92CC91A /* Pods_MasterDex.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		151490161E2EA49600CE356A /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		151490171E2EA49600CE356A /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		151490181E2EA49600CE356A /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		151490191E2EA49600CE356A /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		1514901A1E2EA49600CE356A /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		1514901B1E2EA49600CE356A /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		1514901C1E2EA49600CE356A /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		1514901D1E2EA49600CE356A /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		1514901E1E2EA49600CE356A /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		1514901F1E2EA49600CE356A /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		151490201E2EA49600CE356A /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		151490211E2EA49600CE356A /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		151490221E2EA49600CE356A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151490231E2EA49600CE356A /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		151490241E2EA49600CE356A /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		151490251E2EA49600CE356A /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		151490261E2EA49600CE356A /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		151490271E2EA49600CE356A /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		151490281E2EA49600CE356A /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		151490291E2EA49600CE356A /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		1514902A1E2EA49600CE356A /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		1514902B1E2EA49600CE356A /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		1514902C1E2EA49600CE356A /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		1514902D1E2EA49600CE356A /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		1514902E1E2EA49600CE356A /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		1514902F1E2EA49600CE356A /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		151490301E2EA49600CE356A /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		151490311E2EA49600CE356A /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		151490321E2EA49600CE356A /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		151490331E2EA49600CE356A /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		151490511E306BF400CE356A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		156146751E1D849200202A3E /* PokemonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDetailViewController.swift; sourceTree = "<group>"; };
 		159559AC1E0AEFC700A21C4D /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
+		159559B11E0C466500A21C4D /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		159559B31E0C4AC900A21C4D /* Pokemon Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pokemon Solid.ttf"; sourceTree = "<group>"; };
+		159559DA1E0C8D5D00A21C4D /* fj70soU.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fj70soU.jpg; sourceTree = "<group>"; };
+		159559DC1E0C8DD800A21C4D /* pokemon_super_mystery_dungeon_desktop_background_by_manikkuderp-d9hwfk8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pokemon_super_mystery_dungeon_desktop_background_by_manikkuderp-d9hwfk8.png"; sourceTree = "<group>"; };
+		159559DE1E0F2FD200A21C4D /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
+		159559E21E1432A400A21C4D /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		159559E41E15BBA100A21C4D /* Littleroot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Littleroot.mp3; sourceTree = "<group>"; };
 		15B489321E099DFA00772230 /* MasterDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MasterDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B489351E099DFA00772230 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15B489371E099DFA00772230 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +102,9 @@
 		15B4893C1E099DFA00772230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15B4893F1E099DFA00772230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15B489411E099DFA00772230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5984F0D8320BC0798FF89743 /* Pods-MasterDex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterDex.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MasterDex/Pods-MasterDex.debug.xcconfig"; sourceTree = "<group>"; };
+		94DDEEB797703432BBC00950 /* Pods-MasterDex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MasterDex.release.xcconfig"; path = "Pods/Target Support Files/Pods-MasterDex/Pods-MasterDex.release.xcconfig"; sourceTree = "<group>"; };
+		EEE0B4AB79E44C11E92CC91A /* Pods_MasterDex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MasterDex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +112,97 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0DB054ED637A68A232C04E /* Pods_MasterDex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		151490151E2EA49600CE356A /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				151490161E2EA49600CE356A /* AsyncButton.swift */,
+				151490171E2EA49600CE356A /* AsyncImageView.swift */,
+				151490181E2EA49600CE356A /* AutoTextView.swift */,
+				151490191E2EA49600CE356A /* BlurView.swift */,
+				1514901A1E2EA49600CE356A /* DesignableButton.swift */,
+				1514901B1E2EA49600CE356A /* DesignableImageView.swift */,
+				1514901C1E2EA49600CE356A /* DesignableLabel.swift */,
+				1514901D1E2EA49600CE356A /* DesignableTabBarController.swift */,
+				1514901E1E2EA49600CE356A /* DesignableTextField.swift */,
+				1514901F1E2EA49600CE356A /* DesignableTextView.swift */,
+				151490201E2EA49600CE356A /* DesignableView.swift */,
+				151490211E2EA49600CE356A /* ImageLoader.swift */,
+				151490221E2EA49600CE356A /* Info.plist */,
+				151490231E2EA49600CE356A /* KeyboardLayoutConstraint.swift */,
+				151490241E2EA49600CE356A /* LoadingView.swift */,
+				151490251E2EA49600CE356A /* LoadingView.xib */,
+				151490261E2EA49600CE356A /* Misc.swift */,
+				151490271E2EA49600CE356A /* SoundPlayer.swift */,
+				151490281E2EA49600CE356A /* Spring.h */,
+				151490291E2EA49600CE356A /* Spring.swift */,
+				1514902A1E2EA49600CE356A /* SpringAnimation.swift */,
+				1514902B1E2EA49600CE356A /* SpringButton.swift */,
+				1514902C1E2EA49600CE356A /* SpringImageView.swift */,
+				1514902D1E2EA49600CE356A /* SpringLabel.swift */,
+				1514902E1E2EA49600CE356A /* SpringTextField.swift */,
+				1514902F1E2EA49600CE356A /* SpringTextView.swift */,
+				151490301E2EA49600CE356A /* SpringView.swift */,
+				151490311E2EA49600CE356A /* TransitionManager.swift */,
+				151490321E2EA49600CE356A /* TransitionZoom.swift */,
+				151490331E2EA49600CE356A /* UnwindSegue.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		159559AE1E0AF63A00A21C4D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				15B489371E099DFA00772230 /* ViewController.swift */,
+				156146751E1D849200202A3E /* PokemonDetailViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		159559AF1E0AF64C00A21C4D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				15B489391E099DFA00772230 /* Main.storyboard */,
+				15B4893E1E099DFA00772230 /* LaunchScreen.storyboard */,
+				159559DE1E0F2FD200A21C4D /* PokeCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		159559B01E0AF65E00A21C4D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				159559B11E0C466500A21C4D /* Pokemon.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		159559B51E0C4AE700A21C4D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				151490151E2EA49600CE356A /* Spring */,
+				159559E41E15BBA100A21C4D /* Littleroot.mp3 */,
+				159559AC1E0AEFC700A21C4D /* pokemon.csv */,
+				159559B31E0C4AC900A21C4D /* Pokemon Solid.ttf */,
+				159559E21E1432A400A21C4D /* csv.swift */,
+				151490511E306BF400CE356A /* Constants.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
 		15B489291E099DFA00772230 = {
 			isa = PBXGroup;
 			children = (
 				15B489341E099DFA00772230 /* MasterDex */,
 				15B489331E099DFA00772230 /* Products */,
+				C8C6297FCE9FB1CDC0F1FA8F /* Pods */,
+				719DF2E454E150CD8699DE2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +218,33 @@
 			isa = PBXGroup;
 			children = (
 				15B489351E099DFA00772230 /* AppDelegate.swift */,
-				15B489371E099DFA00772230 /* ViewController.swift */,
-				15B489391E099DFA00772230 /* Main.storyboard */,
-				159559AC1E0AEFC700A21C4D /* pokemon.csv */,
+				159559B51E0C4AE700A21C4D /* Util */,
+				159559B01E0AF65E00A21C4D /* Model */,
+				159559AF1E0AF64C00A21C4D /* View */,
+				159559AE1E0AF63A00A21C4D /* Controller */,
 				15B4893C1E099DFA00772230 /* Assets.xcassets */,
-				15B4893E1E099DFA00772230 /* LaunchScreen.storyboard */,
+				159559DC1E0C8DD800A21C4D /* pokemon_super_mystery_dungeon_desktop_background_by_manikkuderp-d9hwfk8.png */,
+				159559DA1E0C8D5D00A21C4D /* fj70soU.jpg */,
 				15B489411E099DFA00772230 /* Info.plist */,
 			);
 			path = MasterDex;
+			sourceTree = "<group>";
+		};
+		719DF2E454E150CD8699DE2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEE0B4AB79E44C11E92CC91A /* Pods_MasterDex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8C6297FCE9FB1CDC0F1FA8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5984F0D8320BC0798FF89743 /* Pods-MasterDex.debug.xcconfig */,
+				94DDEEB797703432BBC00950 /* Pods-MasterDex.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 15B489441E099DFA00772230 /* Build configuration list for PBXNativeTarget "MasterDex" */;
 			buildPhases = (
+				4539C929D3680D601F88DE9A /* [CP] Check Pods Manifest.lock */,
 				15B4892E1E099DFA00772230 /* Sources */,
 				15B4892F1E099DFA00772230 /* Frameworks */,
 				15B489301E099DFA00772230 /* Resources */,
+				265B3281ABED3E289D8B5D00 /* [CP] Embed Pods Frameworks */,
+				0CF4FC93506806DFB78C0D65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +283,7 @@
 					15B489311E099DFA00772230 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = AF7QK5XC7P;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -127,22 +311,108 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159559B41E0C4AC900A21C4D /* Pokemon Solid.ttf in Resources */,
 				15B489401E099DFA00772230 /* LaunchScreen.storyboard in Resources */,
+				151490401E2EA49600CE356A /* Info.plist in Resources */,
+				159559DD1E0C8DD800A21C4D /* pokemon_super_mystery_dungeon_desktop_background_by_manikkuderp-d9hwfk8.png in Resources */,
 				15B4893D1E099DFA00772230 /* Assets.xcassets in Resources */,
+				159559DB1E0C8D5D00A21C4D /* fj70soU.jpg in Resources */,
 				159559AD1E0AEFC700A21C4D /* pokemon.csv in Resources */,
+				159559E51E15BBA100A21C4D /* Littleroot.mp3 in Resources */,
 				15B4893B1E099DFA00772230 /* Main.storyboard in Resources */,
+				151490431E2EA49600CE356A /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CF4FC93506806DFB78C0D65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasterDex/Pods-MasterDex-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		265B3281ABED3E289D8B5D00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MasterDex/Pods-MasterDex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4539C929D3680D601F88DE9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		15B4892E1E099DFA00772230 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159559DF1E0F2FD200A21C4D /* PokeCell.swift in Sources */,
+				151490521E306BF400CE356A /* Constants.swift in Sources */,
+				1514903D1E2EA49600CE356A /* DesignableTextView.swift in Sources */,
+				151490451E2EA49600CE356A /* SoundPlayer.swift in Sources */,
+				151490471E2EA49600CE356A /* SpringAnimation.swift in Sources */,
+				151490341E2EA49600CE356A /* AsyncButton.swift in Sources */,
+				1514904D1E2EA49600CE356A /* SpringView.swift in Sources */,
+				151490411E2EA49600CE356A /* KeyboardLayoutConstraint.swift in Sources */,
+				1514904E1E2EA49600CE356A /* TransitionManager.swift in Sources */,
 				15B489381E099DFA00772230 /* ViewController.swift in Sources */,
+				151490361E2EA49600CE356A /* AutoTextView.swift in Sources */,
+				1514903A1E2EA49600CE356A /* DesignableLabel.swift in Sources */,
+				151490491E2EA49600CE356A /* SpringImageView.swift in Sources */,
+				151490391E2EA49600CE356A /* DesignableImageView.swift in Sources */,
+				1514903B1E2EA49600CE356A /* DesignableTabBarController.swift in Sources */,
+				1514903C1E2EA49600CE356A /* DesignableTextField.swift in Sources */,
+				151490381E2EA49600CE356A /* DesignableButton.swift in Sources */,
+				151490481E2EA49600CE356A /* SpringButton.swift in Sources */,
+				1514904A1E2EA49600CE356A /* SpringLabel.swift in Sources */,
+				151490501E2EA49600CE356A /* UnwindSegue.swift in Sources */,
+				151490351E2EA49600CE356A /* AsyncImageView.swift in Sources */,
 				15B489361E099DFA00772230 /* AppDelegate.swift in Sources */,
+				151490421E2EA49600CE356A /* LoadingView.swift in Sources */,
+				151490461E2EA49600CE356A /* Spring.swift in Sources */,
+				1514904B1E2EA49600CE356A /* SpringTextField.swift in Sources */,
+				159559B21E0C466500A21C4D /* Pokemon.swift in Sources */,
+				151490371E2EA49600CE356A /* BlurView.swift in Sources */,
+				1514903F1E2EA49600CE356A /* ImageLoader.swift in Sources */,
+				1514904C1E2EA49600CE356A /* SpringTextView.swift in Sources */,
+				159559E31E1432A400A21C4D /* csv.swift in Sources */,
+				151490441E2EA49600CE356A /* Misc.swift in Sources */,
+				156146761E1D849200202A3E /* PokemonDetailViewController.swift in Sources */,
+				1514903E1E2EA49600CE356A /* DesignableView.swift in Sources */,
+				1514904F1E2EA49600CE356A /* TransitionZoom.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +531,7 @@
 		};
 		15B489451E099DFA00772230 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5984F0D8320BC0798FF89743 /* Pods-MasterDex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AF7QK5XC7P;
@@ -274,6 +545,7 @@
 		};
 		15B489461E099DFA00772230 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94DDEEB797703432BBC00950 /* Pods-MasterDex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = AF7QK5XC7P;
